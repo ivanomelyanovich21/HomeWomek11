@@ -1,0 +1,76 @@
+body {
+    background: rgb(241, 241, 241);
+
+}
+
+.container {
+    background: white;
+    box-shadow: 0px 0px 15px gray;
+}
+
+h1 {
+    font-size: 60px;
+    font-family: 'Open Sans', sans-serif;
+}
+ 
+header > nav {
+    border-bottom: 3px solid rgb(238, 233, 233);
+}
+
+.mens {
+    height: 500px;
+    object-fit: cover;
+}
+
+.cont {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+}
+
+.cell {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: auto auto;
+    gap: 27px;
+}
+
+.btn {
+    display: block;
+    margin: 0px 80px 0px 80px;
+}
+
+div.card {
+    border: none;
+}
+
+.pod {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+}
+
+.call {
+    font-size: 30px;
+}
+
+.line {
+    border-bottom: 3px solid rgb(238, 233, 233);
+}
+
+.podv {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 35px;
+}
+
+.bord {
+    border-bottom: 2px solid rgb(238, 233, 233);
+}
+
+footer {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+}
+
